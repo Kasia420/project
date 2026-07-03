@@ -8,7 +8,7 @@ import time
 import datetime as dt
 from pathlib import Path
 
-# config.py leży piętro wyżej niż src/
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import pandas as pd
